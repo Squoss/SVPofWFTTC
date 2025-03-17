@@ -11,15 +11,6 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
-        sparse-checkout: 'plapp'
-        sparse-checkout-cone-mode: false
-    - name: Move Play app to root # https://github.com/actions/checkout/issues/483#issuecomment-1756354321
-      run: |
-        ls -lah
-        shopt -s dotglob
-        mv plapp/* .
-        rm -rf plapp
-        ls -lah
     - name: Set up Node.js 22
       uses: actions/setup-node@v4
       with:
