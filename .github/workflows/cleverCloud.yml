@@ -23,6 +23,8 @@ jobs:
         rm -rf plapp
         ls -lah
         git init
+        git config user.email "GitHub.Actions@svpofwfttc.com"
+        git config user.name "GitHub Actions"
         git add .
         git commit -m "moved Play app to root"
     - name: Set up Node.js 22
