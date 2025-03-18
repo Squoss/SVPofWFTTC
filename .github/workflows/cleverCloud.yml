@@ -40,7 +40,7 @@ jobs:
     - name: Deploy # https://www.clever-cloud.com/doc/reference/clever-tools/getting_started/#deploying-new-code
       continue-on-error: true
       id: deployNewCode
-      run: clever deploy
+      run: clever deploy --force
     - name: Restart # if there was no new code
       continue-on-error: true
       if: ${{ steps.deployNewCode.outcome != 'success'}}
