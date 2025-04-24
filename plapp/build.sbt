@@ -14,7 +14,7 @@ scalaVersion := "3.3.5"
 libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "7.0.1" % Test
 
-libraryDependencies += "org.webjars" % "bootstrap" % "5.3.3"
+libraryDependencies += "org.webjars" % "bootstrap" % "5.3.5"
 
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "com.squeng.controllers._"
