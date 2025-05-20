@@ -15,6 +15,7 @@ libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "7.0.1" % Test
 
 libraryDependencies += "org.webjars" % "bootstrap" % "5.3.5"
+libraryDependencies += "org.webjars.npm" % "popperjs__core" % "2.11.8"
 
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "com.squeng.controllers._"
