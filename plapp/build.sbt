@@ -9,7 +9,7 @@ lazy val root = (project in file("."))
     .dependsOn(reinraum)
 lazy val reinraum = project
 
-scalaVersion := "3.3.5"
+scalaVersion := "3.3.6"
 
 libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "7.0.1" % Test
